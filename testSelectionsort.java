@@ -10,10 +10,10 @@ class testSelectionSort {
 	SelectionSort sort = new SelectionSort();
 	@Test
 	public void test() {
-
-
-
-
+		testPositive();
+				testNegative();
+				testMixed();
+				testDuplicates();
 	}
 
     public testSelectionSort() {
